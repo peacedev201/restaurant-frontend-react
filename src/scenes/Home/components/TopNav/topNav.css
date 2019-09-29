@@ -1,0 +1,25 @@
+.top-nav {
+  position: relative;
+  z-index: 1060;
+  height: 60px !important; }
+  .top-nav .navbar.navbar-expand {
+    padding-right: 100px !important; }
+    .top-nav .navbar.navbar-expand .navbar-brand {
+      margin-left: 100px; }
+      .top-nav .navbar.navbar-expand .navbar-brand .top-nav-logo {
+        height: 45px;
+        width: 45px;
+        object-fit: cover; }
+    .top-nav .navbar.navbar-expand .navbar-nav .nav-item {
+      margin: 0; }
+      .top-nav .navbar.navbar-expand .navbar-nav .nav-item > a {
+        padding: 0;
+        color: #274BF0; }
+        .top-nav .navbar.navbar-expand .navbar-nav .nav-item > a :hover {
+          color: #274BF0; }
+        .top-nav .navbar.navbar-expand .navbar-nav .nav-item > a img {
+          padding: 1px;
+          border: 1px solid #274BF0;
+          border-radius: 50%; }
+      .top-nav .navbar.navbar-expand .navbar-nav .nav-item > a:hover:before {
+        background: transparent; }

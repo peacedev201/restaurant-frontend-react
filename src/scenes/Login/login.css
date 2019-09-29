@@ -1,0 +1,9 @@
+.login-scene {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh; }
+  @media only screen and (max-width: 767px) {
+    .login-scene > .logo {
+      width: 300px; } }
